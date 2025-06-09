@@ -17,6 +17,12 @@ successfully installed Hyprland.
 Install `kitty` (default terminal emulator). This is available in most distros'
 repositories.
 
+{{< callout type=info >}}
+
+Please note that if you don't have any suitable font installed for `kitty`, it will crash when the terminal key bind is used in Hyprland (`SUPER+Q` by default). You can fix this by installing DejaVu Sans Mono using `sudo pacman -S ttf-dejavu`.
+
+{{< /callout >}}
+
 ## Nvidia?
 
 {{< callout type=info >}}
